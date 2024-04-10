@@ -143,11 +143,26 @@
 
 .testimonial {
   background-color: #e5e7eb;
+  margin: 6rem 0;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonial .quote {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
-  padding: 6rem 18rem;
+  /* padding: 6rem 18rem; */
+  width: 70%;
+  /* margin: auto; */
+  /* transform: translateY(50%); */
+}
+
+.customer {
+  font-weight: 700;
+  font-size: 1.5rem;
+  transform: translateX(10rem);
 }
