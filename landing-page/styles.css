@@ -9,7 +9,7 @@
 
 .hero {
   background-color: #1f2937;
-  height: 50vh;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,4 +102,52 @@
   border: none;
   font-weight: 500;
   margin-top: 8px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.information > p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.sub-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.sub-info p {
+  color: #1f2937;
+}
+
+.sub-info img {
+  height: 8rem;
+  width: 8rem;
+  border: 3px solid #3882f6;
+  border-radius: 7px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+}
+
+.testimonial .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 6rem 18rem;
 }
